@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/amortizacion/amortizacion.css">
+<body>
+    <header>
+        <h2 class="logo">Calculadora | VPM</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu"> <!--label hace que se de el clik en el chulito-->
+        &#8801 <!--hace posible el menu-->
+    </label>
+<div class="navega">
+    <ul class="menu">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">
+                <p class="stroke">Inicio</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="amortizacion.html">
+                <p class="stroke">Amortización</p>
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">
+                <p class="stroke">Clasica</p>
+            </a> 
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="campus.html">
+                <p class="stroke">Estaciones</p>
+            </a> 
+        </li>
+                        
+        <li class="nav-item">
+            <a class="nav-link" href="eventos.html">
+            <p class="stroke">Dias</p> 
+            </a> 
+        </li>
+
+        <Label for="check" class="esconder-menu">
+            &#215 <!--x para el menu-->
+        </Label>
+    </ul>
+</div>
+</header>
+<br>
+
+<!--CARCULADORA-->
+<section class="container">
+    <section class="calculadora-titulo">
+            <h3>CALCULADORA DE AMORTIZACION<br><br>metodo frances</h3>
+            <!-- <a href="#" class="boton-empezar">Calcula</a> para el boton ponerle una clase y poderlo mejorar en css -->
+        </div>
+    </section>
+
+    <section class="formulario">
+        <form action="">
+            <input type="number" placeholder="Ingrese el monto">
+            <input type="number" placeholder="Ingrese los periodos">
+            <input type="number" placeholder="Ingrese la tasa de interes">
+            <input type="button" value="">
+        </form>
+    </section>
+
+    <!-- <section class="tabla">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Cuota</th>
+                        <th>Capital</th>
+                        <th>Interés</th>
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+    </section> -->
+</section>
+<script src="/amortizacion/amortizacion.js"></script>
+</body>
+</html>

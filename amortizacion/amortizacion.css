@@ -1,0 +1,113 @@
+/* reset simple: aplican estilos */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box; 
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    height: 100px; /*altura*/
+    background: #00369c;
+    padding: 0 50px; /*ponerlo mas centrado, ambos lados 50px*/
+    color: #fff;
+    display: flex; /*ponerlo mas organizado uno al lado del otro*/
+    justify-content: space-between; /*ponerlo separado uno del otro*/
+    align-items: center; /*centrados dentro del contenedor*/
+    
+}
+
+.logo{
+    text-transform: uppercase; /*poner la letra en mayuscula del html*/
+    color: #fff;
+    font-weight: 200; /*poner la letra menos ancha*/
+
+}
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 200;
+}
+.menu a{ /*menu a*/
+    color: #fff;
+    text-transform: uppercase; /*mayuscula*/
+    text-decoration: none; /*quitar subrayado*/
+    padding: 0 10px; /*0 px arriba pero 10px a los lado, los separa*/
+    transition: 0.4s;
+    display: flex;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px; /*ponerlo mas grande*/
+    cursor: pointer; /*manito*/
+    display: none; 
+    transition: 0.4s;
+} 
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu :hover, /*realiza actividades cuando se pasa el cursos*/
+.esconder-menu:hover{
+    color: #1a60e0; /*solo pone color encima de las palabras*/
+}
+
+#check{
+    display: none;
+}
+
+
+/*calculadora*/ 
+
+
+.container{
+    border: 1px solid black;
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto; /*pone margenes*/
+}
+.calculadora-titulo{
+    display: right;
+    color:;
+    margin: 0px auto;
+    padding: 15px;
+    background-color:#00369c ;
+} 
+
+.form-group{
+    padding: 15px;
+    display: center;
+    color:black;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.formulario{
+width: 250px;
+height: 200px;
+background-color: red;
+float: left;
+}
+
+.tabla{
+    background-color: #00369c;
+    color:white;
+    font-weight: 200; 
+} 
+
+th{
+    text-align: center;
+}
+
+
